@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Teammate Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hackathon Teammate Finder</h1>
+    <p>Connect. Collaborate. Conquer Hackathons Together!</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Create Your Profile</h2>
+      <form id="profile-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="text" placeholder="Role (Frontend/Backend/Designer/etc.)" required>
+        <input type="text" placeholder="Skills (e.g., React, Node, Figma)">
+        <input type="text" placeholder="Tech Stack">
+        <input type="text" placeholder="Location">
+        <textarea placeholder="Hackathons Interested In"></textarea>
+        <textarea placeholder="About You"></textarea>
+        <button type="submit">Create Profile</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Search Profiles</h2>
+      <input type="text" placeholder="Search by name, role, skill...">
+      <div id="profiles-container">
+        <!-- Dynamic profile cards will appear here -->
+      </div>
+    </section>
+  </div>
+</body>
+</html>
